@@ -1,0 +1,78 @@
+[
+  {
+    "id": "c05bedbf-30b3-47f7-bb40-4189fa1f4eaa",
+    "name": "Приоритет",
+    "states": [
+      {
+        "id": "b275affc1c90",
+        "name": "Важно сегодня",
+        "color": "#FF8C8C"
+      },
+      {
+        "id": "a03fb1cf9266",
+        "name": "Обычный",
+        "color": "#7DD3FC"
+      }
+    ]
+  },
+  {
+    "id": "7d80e6a3-06f0-4300-8e50-ef2dadd0355f",
+    "name": "Этап",
+    "states": [
+      {
+        "id": "845fad8dfdf8",
+        "name": "Разработка",
+        "color": "#93C5FD"
+      },
+      {
+        "id": "cab27ad21e85",
+        "name": "Проверка",
+        "color": "#FDE68A"
+      }
+    ]
+  },
+  {
+    "id": "c8fded30-eded-4eed-a005-65e3a818d252",
+    "name": "Проект",
+    "states": [
+      {
+        "id": "8e57fcab3137",
+        "name": "Wookiee",
+        "color": "#C4B5FD"
+      }
+    ]
+  },
+  {
+    "id": "b060e4e1-0831-4e87-bf73-8d040bfde709",
+    "name": "Категория",
+    "states": [
+      {
+        "id": "b893109601af",
+        "name": "Доработка",
+        "color": "#86EFAC"
+      }
+    ]
+  },
+  {
+    "id": "4b276baa-0271-43a7-b155-5a6e59faf275",
+    "name": "Родитель",
+    "states": [
+      {
+        "id": "01002bc362a5",
+        "name": "Да",
+        "color": "#CBD5E1"
+      }
+    ]
+  },
+  {
+    "id": "094b03f0-9001-40f9-9dc1-d9240805bd5c",
+    "name": "Разбор косяка",
+    "states": [
+      {
+        "id": "d5c6e767ec6a",
+        "name": "Нужен разбор",
+        "color": "#FDBA74"
+      }
+    ]
+  }
+]

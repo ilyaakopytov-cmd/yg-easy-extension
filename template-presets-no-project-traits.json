@@ -1,0 +1,260 @@
+{
+  "format": "yg-easy-task-templates",
+  "version": 1,
+  "exportedAt": "2026-07-16T12:00:00.000Z",
+  "templates": [
+    {
+      "id": "preset-evaluation-personalization",
+      "title": "Провести оценку персонализации",
+      "projectTraitsIncluded": false,
+      "createdAt": "2026-07-16T12:00:00.000Z",
+      "updatedAt": "2026-07-16T12:00:00.000Z",
+      "root": {
+        "titleMode": "custom",
+        "title": "Провести оценку персонализации / НАИМЕНОВАНИЕ",
+        "description": "",
+        "isParentFlag": true,
+        "stickers": [
+          {
+            "name": "Приоритет",
+            "state": "1-2 дня"
+          },
+          {
+            "name": "Категория",
+            "state": "Оценка"
+          }
+        ],
+        "numericStickers": [
+          {
+            "name": "План Сегодня",
+            "value": "0.2"
+          }
+        ],
+        "children": [
+          {
+            "titleMode": "custom",
+            "title": "Запросить стоимость у Леры в ЛС",
+            "description": "",
+            "stickers": [
+              {
+                "name": "Приоритет",
+                "state": "1-2 дня"
+              },
+              {
+                "name": "Этап",
+                "state": "Очередь / Ждет выполнение"
+              }
+            ],
+            "numericStickers": [
+              {
+                "name": "План Сегодня",
+                "value": "0.3"
+              }
+            ],
+            "children": []
+          },
+          {
+            "titleMode": "custom",
+            "title": "Провести оценку персонализации",
+            "description": "",
+            "stickers": [
+              {
+                "name": "Приоритет",
+                "state": "3-4 дня"
+              },
+              {
+                "name": "Этап",
+                "state": "Ждет начала работы"
+              },
+              {
+                "name": "Категория",
+                "state": "Оценка"
+              }
+            ],
+            "numericStickers": [
+              {
+                "name": "План Сегодня",
+                "value": "0.3"
+              }
+            ],
+            "children": []
+          },
+          {
+            "titleMode": "custom",
+            "title": "Внести информацию в Реализацию",
+            "description": "",
+            "stickers": [
+              {
+                "name": "Приоритет",
+                "state": "1-2 дня"
+              },
+              {
+                "name": "Этап",
+                "state": "Ждет начала работы"
+              }
+            ],
+            "numericStickers": [
+              {
+                "name": "План Сегодня",
+                "value": "0.3"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "preset-solve-x",
+      "title": "Решить X",
+      "projectTraitsIncluded": false,
+      "createdAt": "2026-07-16T12:00:00.000Z",
+      "updatedAt": "2026-07-16T12:00:00.000Z",
+      "root": {
+        "titleMode": "custom",
+        "title": "Решить X",
+        "description": "",
+        "isParentFlag": true,
+        "stickers": [
+          {
+            "name": "Приоритет",
+            "state": "1-2 дня"
+          },
+          {
+            "name": "Категория",
+            "state": "Бесплатка"
+          }
+        ],
+        "numericStickers": [
+          {
+            "name": "План Сегодня",
+            "value": "0.2"
+          },
+          {
+            "name": "Факт часов",
+            "value": "0"
+          }
+        ],
+        "children": [
+          {
+            "titleMode": "custom",
+            "title": "Решить X",
+            "description": "",
+            "stickers": [
+              {
+                "name": "Приоритет",
+                "state": "1-2 дня"
+              },
+              {
+                "name": "Категория",
+                "state": "Бесплатка"
+              }
+            ],
+            "numericStickers": [
+              {
+                "name": "План Сегодня",
+                "value": "0.5"
+              },
+              {
+                "name": "Факт часов",
+                "value": "0"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "preset-bi-task",
+      "title": "Задача с BI",
+      "projectTraitsIncluded": false,
+      "createdAt": "2026-07-16T12:00:00.000Z",
+      "updatedAt": "2026-07-16T12:00:00.000Z",
+      "root": {
+        "titleMode": "custom",
+        "title": "Задача с BI",
+        "description": "",
+        "isParentFlag": true,
+        "stickers": [
+          {
+            "name": "Приоритет",
+            "state": "Приоритет"
+          }
+        ],
+        "numericStickers": [
+          {
+            "name": "План Сегодня",
+            "value": "0.2"
+          }
+        ],
+        "children": [
+          {
+            "titleMode": "custom",
+            "title": "Итоговая сверка разработки / док / донести БА",
+            "description": "",
+            "isParentFlag": true,
+            "stickers": [
+              {
+                "name": "Приоритет",
+                "state": "Приоритет"
+              },
+              {
+                "name": "Этап",
+                "state": "Очередь / Ждет выполнение"
+              }
+            ],
+            "numericStickers": [
+              {
+                "name": "План Сегодня",
+                "value": "0.5"
+              },
+              {
+                "name": "Факт часов",
+                "value": "0"
+              }
+            ],
+            "children": [
+              {
+                "titleMode": "custom",
+                "title": "Добавить в бриф / док лист",
+                "description": "",
+                "stickers": [
+                  {
+                    "name": "Приоритет",
+                    "state": "Приоритет"
+                  }
+                ],
+                "numericStickers": [
+                  {
+                    "name": "План Сегодня",
+                    "value": "0.5"
+                  }
+                ],
+                "children": []
+              },
+              {
+                "titleMode": "custom",
+                "title": "Написать ТЗ на BI как добавить в бриф (БА)",
+                "description": "",
+                "stickers": [
+                  {
+                    "name": "Приоритет",
+                    "state": "Приоритет"
+                  }
+                ],
+                "numericStickers": [
+                  {
+                    "name": "План Сегодня",
+                    "value": "0.5"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

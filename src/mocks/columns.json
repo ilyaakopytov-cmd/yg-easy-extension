@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dcc749ea-0a21-40cc-a3ec-25a0d8f4e0ec",
+    "boardId": "93058d43-354c-4e63-a82f-56e100e30700",
+    "title": "Шаблоны"
+  },
+  {
+    "id": "2127fffe-9436-4dc7-a8f1-ebad34a7ed7c",
+    "boardId": "93058d43-354c-4e63-a82f-56e100e30700",
+    "title": "Задачи"
+  },
+  {
+    "id": "a41d389f-a050-42da-b26d-1d7e358d8d1e",
+    "boardId": "2dc1d8ce-3397-4a0b-b838-1f47939a7180",
+    "title": "Входящие"
+  },
+  {
+    "id": "5f269047-3489-47e8-9eee-af3368a509fb",
+    "boardId": "f51f4ec2-b1d6-4431-83c3-66c3cb0d9bf6",
+    "title": "Нужно сделать"
+  }
+]

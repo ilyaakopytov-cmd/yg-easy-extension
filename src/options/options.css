@@ -1,0 +1,267 @@
+.options-layout {
+  display: grid;
+  grid-template-columns: 240px minmax(420px, 760px);
+  gap: 12px;
+  align-items: start;
+}
+
+.options-sidebar {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+}
+
+.options-sidebar button {
+  width: 100%;
+  min-height: 36px;
+  border: 0;
+  border-radius: 8px;
+  padding: 0 12px;
+  background: transparent;
+  color: #0f172a;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.options-sidebar button:hover,
+.options-sidebar button.active {
+  background: #e2e8f0;
+}
+
+.options-sidebar button.active {
+  font-weight: 700;
+}
+
+.options-panel {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.options-panel h2 {
+  margin: 0;
+  color: #0f172a;
+  font-size: 18px;
+}
+
+.options-panel label {
+  display: grid;
+  gap: 8px;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.options-panel input {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 10px 12px;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.options-panel fieldset {
+  display: grid;
+  gap: 10px;
+  border: 1px solid #d9e2ef;
+  border-radius: 8px;
+  margin: 0;
+  padding: 12px;
+}
+
+.options-panel legend {
+  padding: 0 6px;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.options-panel .choice-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.options-panel .choice-row input {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+}
+
+.options-panel button,
+.action-row button {
+  width: fit-content;
+  min-height: 38px;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  padding: 0 14px;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.options-panel button:disabled,
+.action-row button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.section-note {
+  margin: 0;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.template-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.template-summary span {
+  border: 1px solid #bfdbfe;
+  border-radius: 6px;
+  padding: 6px 9px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.token-switch {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: min(420px, 100%);
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  padding: 4px;
+  background: #f8fafc;
+}
+
+.token-switch button {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 34px;
+  border: 0;
+  border-radius: 999px;
+  padding: 0 12px;
+  background: transparent;
+  color: #475569;
+  font-weight: 700;
+}
+
+.token-switch button.active {
+  background: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 8px 18px rgb(37 99 235 / 18%);
+}
+
+.token-panel {
+  display: grid;
+  gap: 12px;
+}
+
+.token-list {
+  display: grid;
+  gap: 8px;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 12px;
+}
+
+.token-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #f8fafc;
+}
+
+.token-list-item span {
+  display: grid;
+  gap: 4px;
+  color: #475569;
+  font-size: 13px;
+}
+
+.token-list-item strong {
+  color: #0f172a;
+}
+
+.token-list-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.token-list-actions button {
+  min-height: 34px;
+}
+
+.token-list-actions button.danger {
+  border-color: #fecaca;
+  background: #fff1f2;
+  color: #b91c1c;
+}
+
+.warning {
+  margin: 0;
+  border: 1px solid #fde68a;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #fffbeb;
+  color: #92400e;
+  line-height: 1.5;
+}
+
+.connection-status,
+.masked-key {
+  margin: 0;
+  color: #475569;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .options-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .options-sidebar {
+    position: static;
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+}

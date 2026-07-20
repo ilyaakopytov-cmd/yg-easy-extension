@@ -1,0 +1,45 @@
+[
+  {
+    "id": "93058d43-354c-4e63-a82f-56e100e30700",
+    "projectId": "dd560d2c-554f-40bc-a727-3977663513ae",
+    "title": "Алюминиевые пряники",
+    "stickers": {
+      "deadline": true,
+      "assignee": true,
+      "repeat": true,
+      "custom": {
+        "c05bedbf-30b3-47f7-bb40-4189fa1f4eaa": true,
+        "7d80e6a3-06f0-4300-8e50-ef2dadd0355f": true,
+        "c8fded30-eded-4eed-a005-65e3a818d252": true,
+        "b060e4e1-0831-4e87-bf73-8d040bfde709": true,
+        "4b276baa-0271-43a7-b155-5a6e59faf275": true,
+        "094b03f0-9001-40f9-9dc1-d9240805bd5c": true,
+        "6421ea8e-e490-4b12-a09c-0a571dc5780b": true,
+        "0355a80e-ee44-430f-9c05-bc7f21950860": true
+      }
+    }
+  },
+  {
+    "id": "2dc1d8ce-3397-4a0b-b838-1f47939a7180",
+    "projectId": "dd560d2c-554f-40bc-a727-3977663513ae",
+    "title": "Крутые бобры",
+    "stickers": {
+      "deadline": true,
+      "assignee": true,
+      "custom": {
+        "c05bedbf-30b3-47f7-bb40-4189fa1f4eaa": true,
+        "7d80e6a3-06f0-4300-8e50-ef2dadd0355f": true
+      }
+    }
+  },
+  {
+    "id": "f51f4ec2-b1d6-4431-83c3-66c3cb0d9bf6",
+    "projectId": "f7f8d2d7-8c6c-4d33-9db9-38dcf55cba87",
+    "title": "Операционные задачи",
+    "stickers": {
+      "deadline": true,
+      "assignee": true,
+      "custom": {}
+    }
+  }
+]
